@@ -1,21 +1,5 @@
 # -PLPBasicGitAssignment-
 Hands-On Assignment: Basic Git And GitHub Workflow
-Objective:
-
-The objective of this assignment is to familiarize students with the basic workflow of creating a GitHub repository, connecting it to a local folder, and making commits and pushes.
-
-
-
-Requirements:
-
-- A GitHub account (create one if you don't have it already).
-
-- Git installed on your local machine.
-
-- A code editor of your choice (e.g., Visual Studio Code, Sublime Text).
-
-
-
 
 Task 1: Repository Setup
 
@@ -33,7 +17,7 @@ Task 2: Local Setup
 
 2. Local Folder Setup:
 
-  - Create a new folder on your local machine (e.g., "PLPBasicGitAssignment").
+  - Create a new folder on your local machine : PLPBasicGitAssignment
 
   - Open a terminal or command prompt and navigate to the created folder.
 
@@ -51,11 +35,10 @@ Task 2: Local Setup
 
    ```
 
-git remote add origin <repository-url>
+git remote add origin https://github.com/your-username/your-repository.git
 
    ```
 
-   Replace `<repository-url>` with the actual URL of your GitHub repository.
 
 
 
@@ -73,7 +56,7 @@ Task 3: Making Changes
 
   - Stage the changes.
 
-   ```bash
+   
 
    git add hello.txt
 
@@ -81,7 +64,6 @@ Task 3: Making Changes
 
   - Commit the changes.
 
-   ```bash
 
    git commit -m "Add hello.txt with a greeting"
 
@@ -97,7 +79,7 @@ Task 4: Pushing to GitHub
 
    ```bash
 
-   git push -u origin main
+   git push  origin master
 
    ```
 
@@ -111,9 +93,4 @@ Task 5: Verification
 
 
 
-Submission:
-
-- Ensure all changes are pushed to your GitHub repository.
-
-- Share the link to your GitHub repository with the instructor or submit it as per the class instructions.
 
