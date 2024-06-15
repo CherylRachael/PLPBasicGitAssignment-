@@ -35,7 +35,7 @@ Task 2: Local Setup
 
    ```
 
-git remote add origin https://github.com/your-username/your-repository.git
+git remote add origin https://github.com/CherylRachael/-PLPBasicGitAssignment-.git
 
    ```
 
